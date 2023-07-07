@@ -57,3 +57,4 @@ text2 = "Shradha don't want to know about this but {}"
 print(text1.format(main_line))
 print(text2.format(main_line))
 
+print(text1.format(text2))
