@@ -66,8 +66,15 @@ print(bool("ab"))
 fruits = ["apple", "banana"]
 if "apple" in fruits:
     print("Yes, apple is fruit")
+
+print(fruits[1])
     
     
 if "cola" in fruits:
     print("nothing should be printed")
     print("hello")
+
+if 5 == 10 or 4 == 4 or 10 > 5:
+    print("one of the statement is true")
+if 5 == 6 and 4 > 2:
+    print("both statements should be true")
