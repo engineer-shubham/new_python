@@ -58,3 +58,7 @@ print(text1.format(main_line))
 print(text2.format(main_line))
 
 print(text1.format(text2))
+
+print(10 > 9)
+print(10 < 9)
+print(bool("ab"))
