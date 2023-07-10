@@ -62,3 +62,12 @@ print(text1.format(text2))
 print(10 > 9)
 print(10 < 9)
 print(bool("ab"))
+
+fruits = ["apple", "banana"]
+if "apple" in fruits:
+    print("Yes, apple is fruit")
+    
+    
+if "cola" in fruits:
+    print("nothing should be printed")
+    print("hello")
